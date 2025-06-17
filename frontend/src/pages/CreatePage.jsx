@@ -4,7 +4,6 @@ import toast from "react-hot-toast";
 import { Link, useNavigate } from "react-router";
 import api from "../lib/axios";
 
-
 const CreatePage = () => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
@@ -43,6 +42,7 @@ const CreatePage = () => {
       setLoading(false);
     }
   };
+
 
   return (
     <div className="min-h-screen bg-slate-950">
